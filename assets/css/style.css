@@ -1,0 +1,195 @@
+html{
+    width: 100% !important;
+    overflow-x: hidden !important;
+}
+
+.bg-870025{
+    background-color: #870025;
+}
+
+.navbar img {
+    width: 30px;
+}
+
+.navbar h1 {
+    font-size: 1em;
+}
+
+.jumbotron-login {
+    min-height: 100vh;
+    background-image: url('../images/PRIMARY-LOGO.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.jumbotron-login::after {
+    content: '';
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, .8);
+    z-index: 1;
+}
+
+.jumbotron-login .card {
+    z-index: 2;
+    background-color: rgba(255, 255, 255, .75);
+}
+
+.jumbotron-login .btn {
+    background-color: #870025;
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .navbar h1 {
+        font-size: 1em;
+    }
+    .navbar img {
+        width: 30px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .navbar h1 {
+        font-size: 1.5em;
+    }
+    .navbar img {
+        width: 50px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .navbar h1 {
+        font-size: 2em;
+    }
+    .navbar img {
+        width: 75px;
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .navbar h1 {
+        font-size: 2em;
+    }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    .navbar h1 {
+        font-size: 2.5em;
+    }
+}
+
+.jumbotron-vote {
+    min-height: 100vh;
+    background-image: url('../images/PRIMARY-LOGO.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.jumbotron-vote::after {
+    content: '';
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, .8);
+    z-index: 1;
+}
+
+.vote-banner-desktop{
+    display: none;
+    background-color: #870025;
+    display: none;
+    z-index: 2;
+}
+
+.vote-banner-desktop img{
+    width: 75px;
+}
+
+.vote-banner-desktop .col-2{
+    height: 85px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+}
+
+.vote-banner-mobile{
+    background-color: #870025;
+    z-index: 2;
+    display: block;
+}
+
+.vote-banner-mobile img{
+    width: 75px;
+}
+
+.vote-banner-mobile .col-4{
+    height: 85px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .vote-banner-desktop{
+        display: none;
+    }
+    .vote-banner-mobile{
+        display: block;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .vote-banner-desktop{
+        display: none;
+    }
+    .vote-banner-mobile{
+        display: block;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .vote-banner-desktop{
+        display: block;
+    }
+    .vote-banner-mobile{
+        display: none;
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .vote-banner-desktop{
+        display: block;
+    }
+    .vote-banner-mobile{
+        display: none;
+    }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    .vote-banner-desktop{
+        display: block;
+    }
+    .vote-banner-mobile{
+        display: none;
+    }
+}
